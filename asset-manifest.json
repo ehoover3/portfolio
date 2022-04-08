@@ -1,12 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.31d6cfe0.css",
-    "main.js": "/portfolio/static/js/main.7f0f14d4.js",
+    "main.css": "/portfolio/static/css/main.b807d871.css",
+    "main.js": "/portfolio/static/js/main.ddd90286.js",
+    "static/media/profile.png": "/portfolio/static/media/profile.110374a07343c6f1a31a.png",
+    "static/media/banking.png": "/portfolio/static/media/banking.39596b59a51652502e31.png",
+    "static/media/art.png": "/portfolio/static/media/art.73f59e6778f6e9a5ba40.png",
+    "static/media/deaf.png": "/portfolio/static/media/deaf.e25a44b7513c99ee5af0.png",
+    "static/media/bugtracker.png": "/portfolio/static/media/bugtracker.7e865dee4e921207693c.png",
+    "static/media/budget.png": "/portfolio/static/media/budget.c4fcfc3279816cf44f72.png",
+    "static/media/coding.png": "/portfolio/static/media/coding.d98c6d7b44efe84d0743.png",
+    "static/media/marketing.png": "/portfolio/static/media/marketing.5ae8f546d2b053784dcc.png",
+    "static/media/EricHooverResume.pdf": "/portfolio/static/media/EricHooverResume.b39ff8ad6de827ac78d3.pdf",
     "index.html": "/portfolio/index.html",
-    "main.7f0f14d4.js.map": "/portfolio/static/js/main.7f0f14d4.js.map"
+    "main.b807d871.css.map": "/portfolio/static/css/main.b807d871.css.map",
+    "main.ddd90286.js.map": "/portfolio/static/js/main.ddd90286.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.7f0f14d4.js"
+    "static/css/main.b807d871.css",
+    "static/js/main.ddd90286.js"
   ]
 }
