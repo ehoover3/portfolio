@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/ehoover3.github.io/portfolio/static/css/main.31d6cfe0.css",
+    "main.js": "/ehoover3.github.io/portfolio/static/js/main.7f0f14d4.js",
+    "index.html": "/ehoover3.github.io/portfolio/index.html",
+    "main.7f0f14d4.js.map": "/ehoover3.github.io/portfolio/static/js/main.7f0f14d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.7f0f14d4.js"
+  ]
+}
