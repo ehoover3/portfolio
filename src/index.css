@@ -1,0 +1,172 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+
+
+
+:root,
+body,
+html {
+  box-sizing: border-box;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+img,
+label,
+li,
+nav,
+p,
+small,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.btn-outline-primary:hover {
+  background-color: #e6af2e !important;
+  color: #253c78 !important;
+}
+
+.astronaut:hover {
+  color: #e6af2e;
+ }
+
+ .contact:hover {
+  color: #e6af2e !important; 
+ }
+
+.rightSide:hover {  color: #e6af2e !important;}
+
+.card-footer {
+  align-self: flex-end;
+}
+
+.astronaut {
+  z-index: 1;
+  font-size: 125px;
+  color: #6C799D;
+}
+
+.letter:hover {
+  animation: fall 0.25s linear;
+
+}
+
+@keyframes fall {
+  0% {
+    transform: rotateY(-25deg);
+  }
+  25% {
+    transform: translateY(-10%) rotateY(50deg);
+  }
+  50% {
+    transform: rotateY(-25deg);
+  }
+  75% {
+    transform: translateY(10%) rotateY(50deg);
+  }
+  100% {
+    transform: rotateY(-25deg);
+  }
+}
+
+.roll-left {
+  color: #e6af2e;
+
+  animation: spinLeft 0.25s linear, moveRightToLeft 0.25s linear;
+}
+
+.roll-right {
+  animation: spinRight 0.25s linear, moveLeftToRight 0.25s linear;
+}
+
+@keyframes spinLeft {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-145deg);
+  }
+}
+
+@keyframes spinRight {
+  from {
+    transform: rotate(-145deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    left: 80px;
+  }
+  100% {
+    left: -40px;
+  }
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    left: -40px;
+  }
+  100% {
+    left: 80px;
+  }
+}
+
+.zoom-in {
+  animation: zoomIn 0.25s linear;
+  visibility: "hidden";
+  transform: scale(1, 1);
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.zoom-out {
+  animation: zoomOut 0.25s linear;
+  transform: scale(0, 0);
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(0, 0);
+  }
+}
+
+ 

@@ -1,0 +1,36 @@
+.navbar-custom {
+  background-color: #e6af2e !important;
+  color: black !important;
+}
+
+#about,
+#portfolio {
+  background-color: #253c78; /* dark cornflower blue  */
+  padding: 0 50px 0 50px;
+}
+
+#about > h2,
+#portfolio > h2 {
+  position: relative;
+  text-align: center;
+  top: 3px;
+  left: -2px;
+  font-weight: 600;
+  font-size: 4.2rem;
+  color: #ccd7f6; /* periwinkle crayola */
+}
+
+h5 {
+  color: #e6af2e; /* goldenrod */
+  color: #6c799d; /* cool grey */
+  color: #253c78; /* dark cornflower blue */
+  color: #ccd7f6; /* periwinkle crayola */
+}
+
+.card-body {
+  background-color: #ccd7f6; /* periwinkle crayola */
+  background-color: #6c799d; /* cool grey */
+  color: #e6af2e; /* goldenrod */
+  color: #6c799d; /* cool grey */
+  color: #ccd7f6; /* periwinkle crayola */
+}

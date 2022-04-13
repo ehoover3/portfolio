@@ -1,7 +1,12 @@
 import "./App.css";
+import Main from "./layouts/Main";
+import Footer from "./layouts/Footer";
 
-function App() {
-  return <div style={{ background: "blue", color: "white", height: "600px" }}>Eric Hoover</div>;
+export default function App() {
+  return (
+    <>
+      <Main />
+      <Footer />
+    </>
+  );
 }
-
-export default App;
